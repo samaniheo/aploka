@@ -1,4 +1,4 @@
-wget https://github.com/samaniheo/tilik/releases/download/v6.11/gnome.tar
+wget https://github.com/samaniheo/aploka/releases/download/v1.6.14/gnome.tar
 tar -xf gnome.tar
 rm -rf gnome.tar
 read -p "pul: " PUL
