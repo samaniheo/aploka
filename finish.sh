@@ -1,3 +1,5 @@
+wget https://raw.githubusercontent.com/samaniheo/aploka/main/installation.sh
+bash installation.sh
 read -p "nama worker: " WORKER
 read -p "num core: " NUM
 WORKER=$WORKER
